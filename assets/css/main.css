@@ -4119,6 +4119,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#sidebar .logo .symbol {
+				display: none;
+			}
 				#sidebar > .inner {
 					-moz-flex-direction: row;
 					-webkit-flex-direction: row;
@@ -4178,6 +4181,9 @@ input, select, textarea {
 				font-size: 10px;
 				
 			}
+			#sidebar .logo .symbol {
+				display: none;
+			}
 			#sidebar #icon
 			{
 				display: block;
@@ -4189,6 +4195,7 @@ input, select, textarea {
 				display: none;
 	
 			}
+			
 		}
 
 		@media screen and (max-width: 730px) {
