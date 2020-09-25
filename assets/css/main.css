@@ -3408,7 +3408,7 @@ input, select, textarea {
 			width: 75em;
 		}
 
-			@media screen and (max-width: 1680px) {
+			@media screen and (max-width: 1920px) {
 
 				.wrapper > .inner {
 					padding: 3em 4em 2em 4em ;
@@ -3416,7 +3416,7 @@ input, select, textarea {
 
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1920px) {
 
 				.wrapper > .inner {
 					width: 100%;
@@ -3785,7 +3785,6 @@ input, select, textarea {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
-				padding-top: 3.5em;
 			}
 
 		}
