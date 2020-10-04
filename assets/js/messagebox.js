@@ -6,3 +6,4 @@ $(document).ready(function(){
       $("#cookieConsent").fadeOut(200);
   }); 
 }); 
+
