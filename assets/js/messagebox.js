@@ -1,7 +1,6 @@
 $(document).ready(function(){   
-  setTimeout(function () {
-      $("#cookieConsent").fadeIn(200);
-   }, 4000);
+  $("#cookieConsent").fadeIn(200);
+  
   $("#closeCookieConsent, .cookieConsentOK").click(function() {
       $("#cookieConsent").fadeOut(200);
   }); 
