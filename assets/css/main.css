@@ -31,7 +31,9 @@ footer, header, hgroup, menu, nav, section {
 #minilogo{	
 	margin-right: 30px;
 }
-
+#footer-testonero{
+	color: #000000;
+}
 #testoazzurro{
 	color: #0066ff;
 }
@@ -4373,7 +4375,13 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 736px) {
-
+				#footer-div{
+	
+					flex-direction: column;
+				}
+				#footer-testonero{
+					margin-bottom: 10px;
+				}
 				#intro p {
 					font-size: 1em;
 				}
