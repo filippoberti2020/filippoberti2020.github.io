@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /modulo-covid.html
+Disallow: /privacy-cookie-policy.html
+Disallow: /success-form.html
+
