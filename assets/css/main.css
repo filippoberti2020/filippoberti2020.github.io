@@ -195,7 +195,7 @@ blockquote, q {
 
 table {
 	border-collapse: collapse;
-	
+	border: 1px solid black;
 }
 
 body {
@@ -2339,17 +2339,10 @@ input, select, textarea {
 			.features {
 				display: block;
 			}
-
 				.features section {
-					border-top-width: 1px !important;
-					border-left-width: 0 !important;
+					
 					width: 100%;
 				}
-
-					.features section:first-child {
-						border-top-width: 0 !important;
-					}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4390,6 +4383,10 @@ input, select, textarea {
 					width: 30px;
 					height: 30px;
 				}
+				.blockquote-footer{
+					margin-top: -25px;
+					margin-bottom: 40px;
+				}
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -4399,3 +4396,44 @@ input, select, textarea {
 			}
 
 		}
+		
+/* Make the row inline */
+.card-text{
+	font-weight: bold;
+	text-align: left;
+}
+.blockquote-footer{
+	font-weight: bold;
+	text-align: left;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  /* Make the columns responsive */
+  [class^="col-"] {
+	width: 100%;
+  }
+  
+  @media (min-width: 576px) {
+	.col-sm-6 {
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  @media (min-width: 768px) {
+	.col-md-6 {
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  @media (min-width: 992px) {
+	.col-lg-4 {
+	  flex: 0 0 33.333333%;
+	  max-width: 33.333333%;
+	}
+  }
+		  
