@@ -202,9 +202,9 @@
    float: left;
   }
  
-  #cookieConsent a.cookieConsentOK {
-    float: left !important;
-    margin: 0 !important;
-  }
+ #cookieConsent a.cookieConsentOK {
+  float: left !important;
+  margin: 5px 0 0 0 !important; /* top, right, bottom, left */
+}
   
 }
