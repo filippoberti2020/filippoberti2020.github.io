@@ -8,12 +8,12 @@
   font-family: "Helvetica";
   position: fixed;
   bottom: 0px;
-  right: 0;
+  left: 0;
   display: none;
   z-index: 9999;
   border-radius: 15px;
   padding: 20px; height: 150px;
-  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 10px;
 }
 #cookieConsent2 {
@@ -194,8 +194,13 @@
   #cookieConsent2{
     margin-bottom: -8px;
   }
+  #cookieConsent{
+    height: 100px;
+  }
   #cookieConsent2 a.cookieConsentOK2 {
    margin-right: 0;
+   margin: 0 0 0 0;
+   float: left;
   }
   #cookieConsent a.cookieConsentOK {
     margin-right: 30px;
