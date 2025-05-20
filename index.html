@@ -17,7 +17,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="material-icons">arrow_upward</i></button>
 		
 		<!-- Sidebar -->
 			<section id="sidebar">
@@ -168,29 +167,29 @@
 						<div class="inner" id="testonero">
 						<h2 id="testonero">Il nostro orario</h2>	
 						<div   class="table_wrapper" id="testonero">									
-								<table  >
-									<thead  >
+							<table>
+								<thead>
 									<tr>
-										<th>Giorno</th>
-										<th>Orario</th>
+									<th>Giorno</th>
+									<th>Orario</th>
 									</tr>
-									</thead>							
-									<tbody>
+								</thead>
+								<tbody>
 									<tr>
-										<td>Lunedì<br>Martedì<br>Mercoledì</td>									
-										<td>9:00/12:00-15:00/19:00</td>
+									<td>Lunedì<br>Martedì<br>Mercoledì</td>
+									<td>9:00/12:00 - 15:00/19:00</td>
 									</tr>
 									<tr>
-										<br>Giovedì</td>Venerdì</td>							
-										<td>8:30-18:30</td>
-									</tr>	
-									<tr>
-										<br>Sabato<td>Domenica</td>
-										<td>Chiuso</td>
+									<td>Giovedì<br>Venerdì</td>
+									<td>8:30 - 18:30</td>
 									</tr>
-									</tbody>
-								</table>
-							</div>
+									<tr>
+									<td>Sabato<br>Domenica</td>
+									<td>Chiuso</td>
+									</tr>
+								</tbody>	
+							</table>	
+						</div>
 						</div>
 					</section>
 					<section id="three"  class="wrapper style1 spotlights"  >									
@@ -301,9 +300,9 @@
 				</div>
 			</footer>
 
-			<div id="cookieConsent" style=" text-align: center;">
+			<div id="cookieConsent" style=" text-align: left;">
 				<div id="closeCookieConsent" style="position: absolute;top: 10px; right: 10px;">x</div>
-				<div style="margin-top: 10px;">Svela il tuo sorriso perfetto con la nostra incredibile <br> offerta di sbiancamento dentale!
+				<div>Svela il tuo sorriso perfetto con la nostra incredibile <br> offerta di sbiancamento dentale!
 				<br>
 				<a class="cookieConsentOK" style="margin-top: 10px;" href="moduli/promozione.pdf">Approfitta Subito!</a>
 				</div>
@@ -320,18 +319,6 @@
                 alt="WhatsApp"
             />
             </a>
-		<!-- 
-			<div id="cookieConsent">
-				<div id="closeCookieConsent">x</div>
-				Segui i nostri consigli per il comportamento in studio e sul metodo di prenotamento durante il periodo di Covid.  
-				<a class="cookieConsentOK" href="modulo-covid">Leggi</a><br>
-			</div>
-			<div id="cookieConsent2">
-				<div id="closeCookieConsent2">x</div>
-				Scopri la nostra nuova promozione per lo sbiancamento dentale.  
-				<a class="cookieConsentOK2" href="moduli/promozione.pdf">Leggi</a>
-			</div> 
-		 -->
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -349,25 +336,5 @@
 					})
 				})
 			</script>
-			<script >
-					mybutton = document.getElementById("myBtn");
-
-					// When the user scrolls down 20px from the top of the document, show the button
-					window.onscroll = function() {scrollFunction()};
-
-					function scrollFunction() {
-					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-						mybutton.style.display = "block";
-					} else {
-						mybutton.style.display = "none";
-					}
-					}
-
-					// When the user clicks on the button, scroll to the top of the document
-					function topFunction() {
-					document.body.scrollTop = 0; // For Safari
-					document.documentElement.scrollTo({ top: 0, behavior: 'smooth' }); // For Chrome, Firefox, IE and Opera
-					}
-			</script>	
 	</body>
 </html>
