@@ -1,12 +1,12 @@
-img{
-    width: 100vw;
-transform: translateX(50%);
-opacity: 0;
-transition: all 500ms;
+img {
+  max-width: 100%;       /* Prevents forced 100vw scaling */
+  opacity: 0;
+  transform: translateX(20px);  /* Smaller initial offset */
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+  will-change: transform, opacity; /* Optional performance hint */
 }
 
-.fade{
-    transform: translateX(0);
-    opacity: 1.0;
-    transition: all 1000ms;
+.fade {
+  opacity: 1;
+  transform: translateX(0);
 }
